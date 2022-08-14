@@ -10,7 +10,54 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <h1>My<span>Book</span>List</h1>
+        <form action="">
+            <label for="title">Title</label>
+            <br>
+            <input type="text" name="" id="title">
+            <br><br>
+
+            <label for="author">Author</label>
+            <br>
+            <input type="text" name="" id="author">
+            <br><br>
+
+            <label for="isbn">ISBN</label>
+            <br>
+            <input type="number" name="" id="isbn">
+            <br><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+        <table cellspacing=0>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- content here -->
+                <tr>
+                    <td>Leo</td>
+                    <td>Ted Dibiase</td>
+                    <td>245730</td>
+                    <td><span>&times;</span></td>
+                </tr>
+
+                <tr>
+                    <td>Leo</td>
+                    <td>Ted Dibiase</td>
+                    <td>245730</td>
+                    <td><span>&times;</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
     <!-- script -->
     <script src="main.js"></script>
